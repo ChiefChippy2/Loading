@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <script src="jquery-3.3.1.min.js"></script>
     <base target="_top">
   </head>
   <body>
 
     <script>
-document.body.onload = function(){setTimeout(function(){document.write('<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>')},1)}
-</script>
+$(document).ready(function(){setTimeout(function(){document.write('<iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPboYG" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>')},1)}
+)</script>
 
   </body>
 </html>
